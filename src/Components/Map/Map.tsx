@@ -1,3 +1,5 @@
+import "./Map.css";
+
 interface Props {
   info: any;
 }

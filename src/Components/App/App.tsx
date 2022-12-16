@@ -14,10 +14,12 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Room 5 Hackathon Weather App</h1>
-      <InputCity setCity={setCity}/>
-      <Menu setCountry={setCountryCode}/>
-      <SubmitButton setInfo={setWeatherInfo} city={city} country={countryCode}/>
+      <h1>Weather watchers</h1>
+      <div className='inputInfo'>
+        <InputCity setCity={setCity}/>
+        <Menu setCountry={setCountryCode}/>
+        <SubmitButton setInfo={setWeatherInfo} city={city} country={countryCode}/>
+      </div>
       <DisplayWeather info={weatherInfo}/>
       <Map info={weatherInfo}/>
     </div>

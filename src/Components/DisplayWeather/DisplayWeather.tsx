@@ -15,7 +15,7 @@ function DisplayWeather(props: Props){
                 <div className="infoBlock">
                     <p><b>{info.main.temp}°C</b></p>
                     <p>{info.weather[0].description}</p>
-                    <p>{info.main.humidity}% - humidity</p>
+                    <p>{info.main.humidity}% humidity</p>
                 </div>
             </div>
         )
