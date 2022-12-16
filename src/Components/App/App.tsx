@@ -9,11 +9,12 @@ import Map from '../Map/Map'
 function App() {
 
   const [city, setCity] = useState("");
-  const [countryCode, setCountryCode] = useState("uk");
+  const [countryCode, setCountryCode] = useState("GB");
   const [weatherInfo, setWeatherInfo] = useState({});
 
   return (
     <div className="App">
+      <h1>Room 5 Hackathon Weather App</h1>
       <InputCity setCity={setCity}/>
       <Menu setCountry={setCountryCode}/>
       <SubmitButton setInfo={setWeatherInfo} city={city} country={countryCode}/>

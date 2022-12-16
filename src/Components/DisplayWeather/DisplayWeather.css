@@ -1,0 +1,17 @@
+.displayBlock {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoBlock {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.errorMess {
+  margin: 30px;
+}

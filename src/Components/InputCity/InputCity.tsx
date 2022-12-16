@@ -4,7 +4,7 @@ interface Props {
 
 function InputCity(props: Props){
     const {setCity} = props
-    return <input placeholder="Input" onChange={(e) => {setCity (e.target.value)}}></input>
+    return <input placeholder="City" onChange={(e) => {setCity (e.target.value)}}></input>
 }
 
 

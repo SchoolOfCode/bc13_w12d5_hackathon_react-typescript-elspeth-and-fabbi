@@ -1,3 +1,5 @@
+import codes from "./codes";
+
 interface Props {
    setCountry: (arg0: string) => void
 }
@@ -9,10 +11,9 @@ function Menu(props: Props){
    return (
    <div>
       <select onChange={(e) => {setCountry(e.target.value)}}>
-         <option value="uk">United Kingdom</option>
-         <option value="us">United States</option>
-         <option value="fr">France</option>
-         <option value="ru">Russia</option>
+         {codes.map((country, index) => {
+            return <option key={index} value={country.code}>{country.name}</option>
+         })}
       </select>
    </div>
    )
