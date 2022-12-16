@@ -19,7 +19,7 @@ function App() {
       <Menu setCountry={setCountryCode}/>
       <SubmitButton setInfo={setWeatherInfo} city={city} country={countryCode}/>
       <DisplayWeather info={weatherInfo}/>
-      <Map/>
+      <Map info={weatherInfo}/>
     </div>
   );
 }
