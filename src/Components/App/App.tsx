@@ -17,7 +17,7 @@ function App() {
       <InputCity setCity={setCity}/>
       <Menu setCountry={setCountryCode}/>
       <SubmitButton setInfo={setWeatherInfo} city={city} country={countryCode}/>
-      <DisplayWeather/>
+      <DisplayWeather info={weatherInfo}/>
     </div>
   );
 }
