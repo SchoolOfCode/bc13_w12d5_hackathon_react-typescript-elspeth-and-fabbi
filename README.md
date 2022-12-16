@@ -37,6 +37,10 @@ Start the server
   npm start
 ```
 
+## Deployment
+
+This project is deployed at https://weather-watches.onrender.com/
+
 ## Acknowledgements
 
 - [OpenWeatherApp API](https://openweathermap.org/)
