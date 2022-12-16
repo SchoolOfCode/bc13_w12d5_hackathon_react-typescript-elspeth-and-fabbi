@@ -1,74 +1,47 @@
-# React/TypeScript Hackathon
+# React/TypeScript Hackathon - Weather
 
-## Challenge
+Project to practice using TypeScript in React by making an app that uses
+the [OpenWeatherApp](https://openweathermap.org/) API.
 
-Build a weather checker app using TypeScript and React that satisfies all of the requirements below. Initialise your TypeScript project in this repo. (Remember that Create React App provides a TypeScript template, which makes it easy to get started with TypeScript and React.)
+## Authors
 
-## Core Requirements
+- [@Elspeth-57](https://github.com/Elspeth-57)
+- [@fabbihas](https://github.com/fabbihas)
+- [@BellaBekanova](https://github.com/BellaBekanova)
 
-### Planning and documentation
+## Environment Variables
 
-- Before coding your app, you should create a component tree diagram within this repository.
-- Each component in the diagram should have details on the below (where relevant)
-  - state (if any)
-  - props (if any)
-  - behaviours (the different ways that the state is updated, if there is a state)
-- Your app should have a readme that describes its functionality and how it should be used. You can use a tool like [Readme.so](https://readme.so/editor) to help do this.
-- It's worth planning out your day into mini-sprints/chunks and collectively agree on what work can be completed during each sprint. That way if you spend too long on a particular problem, you can re-evaluate things as a team and course correct earlier.
+To run this project, you will need to add the following environment variables to your .env file
 
-### Code and functionality
+`REACT_APP_API_KEY`
 
-- Your app should be in TypeScript! Some resources that might be helpful as a starting point:
+`REACT_APP_MAP_KEY`
 
-  - https://github.com/typescript-cheatsheets/react#reacttypescript-cheatsheets
-  - https://profy.dev/article/react-typescript
-  - https://www.carlrippon.com/React-event-handlers-with-typescript/
+## Run Locally
 
-- The user should be able to input the name of a city and have weather information about that city added to the page. Use the following API to get your weather information: https://openweathermap.org/api. You'll need to sign up for the free tier to get an API key.
-- Your app should have at least one other function/feature in addition to being able to check weather information about a city. Be creative!
+Clone the project
 
-## Optional bonuses:
+```bash
+  git clone https://github.com/SchoolOfCode/bc13_w12d5_hackathon_react-typescript-elspeth-and-fabbi.git
+```
 
-Explore (and possibly use) any of the below.
+Install dependencies
 
-- CSS modules
+```bash
+  npm install
+```
 
-  - A handy, low-effort feature supported by Create React App, which allows you to scope CSS rules to just a component: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
-  - This is a good idea, as it ensures that one component's CSS rules don't affect another, even if they happen to use the same class names
+Start the server
 
-- Conditional CSS classes
+```bash
+  npm start
+```
 
-  - A handy way of conditionally applying CSS classes (without having to resort to messy conditional string concatenation/interpolation in JS/TS): https://www.npmjs.com/package/clsx
+## Deployment
 
-- React Router
+This project is deployed at https://weather-watches.onrender.com/
 
-  - A way to add multiple pages to your app: https://reactrouter.com/en/main
+## Acknowledgements
 
-- A CSS framework
-
-  - A CSS framework that comes with small utility classes that you can use to style your UI/JSX: https://tailwindcss.com/
-  - Makes it easier to achieve common tasks on the frontend (e.g. vertically/horizontally center an element)
-
-- Forms
-
-  - A way to add forms to an app and simplify many of the details: https://react-hook-form.com/
-
-- Animation libraries
-
-  - A way to add animation and motion to your app: https://blog.logrocket.com/best-react-animation-library-top-7-libraries-compared/
-  - It's also a good idea to read up motion/animation from an accessibility perspective too: https://web.dev/prefers-reduced-motion/
-
-- Tests
-
-  - Practice writing tests in TypeScript whilst also getting some confidence that the important parts of your app behave correctly.
-  - Might be helpful (starting from "Testing a Basic Component"): https://www.pluralsight.com/guides/how-to-test-react-components-in-typescript#module-testingabasiccomponent
-
----
-
-If you get errors regarding missing types for the NPM packages that you're trying to use in your TypeScript application, use these as a starting point:
-
-- https://www.w3schools.com/typescript/typescript_definitely_typed.php
-
-- https://stackoverflow.com/a/39907679
-
-It's also worth searching that package's documentation/website for "TypeScript", in case it contains any direct guidance on how to use their package with TypeScript.
+- [OpenWeatherApp API](https://openweathermap.org/)
+- [Geoapify](https://apidocs.geoapify.com/)

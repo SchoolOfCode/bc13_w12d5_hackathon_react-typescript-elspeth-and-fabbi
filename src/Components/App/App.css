@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+  background-color: #ede3e4;
+}
+
+.App {
+  text-align: center;
+  font-family: Roboto;
+}
+
+.inputInfo {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.inputInfo > input {
+  font-family: Roboto;
+}
+
+.inputInfo > select {
+  font-family: Roboto;
+}
+
+button {
+  background-color: #3c6e71;
+  border: none;
+  color: #ede3e4;
+  padding: 8px;
+  border-radius: 10px;
+  font-family: Roboto;
+}
+
+button:hover {
+  transform: scale(105%);
+}
+
+h1 {
+  font-family: Manrope;
+}
