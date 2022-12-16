@@ -8,14 +8,15 @@ import { useState } from 'react';
 
 function App() {
 
-  const [city, setCity] = useState("")
-  const [countryCode, setCountryCode] = useState("")
+  const [city, setCity] = useState("");
+  const [countryCode, setCountryCode] = useState("uk");
+  const [weatherInfo, setWeatherInfo] = useState({});
 
   return (
     <div className="App">
       <InputCity setCity={setCity}/>
-      <Menu/>
-      <SubmitButton/>
+      <Menu setCountry={setCountryCode}/>
+      <SubmitButton setInfo={setWeatherInfo} city={city} country={countryCode}/>
       <DisplayWeather/>
     </div>
   );
